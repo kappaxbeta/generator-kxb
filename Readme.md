@@ -5,13 +5,19 @@ Private Generator for scaffolding Project fast
 - page
 - simplecomponent
 
+## Install
+make sure you have yeoman installed
 
-## Page
+npm install
+
+npm link 
+
+### Page
 scaffolding a basic page in react redux app
 
 Input: Name
 
-## Simplecomponent
+### Simplecomponent
 scaffolding a in the component folder 
 
 Input: Name
