@@ -1,0 +1,16 @@
+{
+  "name": "generator-kxb",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^4.5.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
