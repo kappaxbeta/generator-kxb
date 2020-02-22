@@ -1,20 +1,17 @@
 export const initialState = {
     list: [],
-    playfield: [],
-    deck: [],
-    grave: [],
     isLoading: true,
     error: null,
     selected: false,
 };
 
-export const SET_LIST = "Start/SET_LIST";
-export const ADD_LIST = "Start/ADD_LIST";
-export const UPDATE_LIST = "Start/UPDATE_LIST";
-export const FINISH_LOADING = "Start/FINISH_LOADING";
-export const START_LOADING = "Start/START_LOADING";
-export const RESET = `Start/RESET`;
-export const SELECT = `Start/SELECT`;
+export const SET_LIST = "<%= name %>/SET_LIST";
+export const ADD_LIST = "<%= name %>/ADD_LIST";
+export const UPDATE_LIST = "<%= name %>/UPDATE_LIST";
+export const FINISH_LOADING = "<%= name %>/FINISH_LOADING";
+export const START_LOADING = "<%= name %>/START_LOADING";
+export const RESET = `<%= name %>/RESET`;
+export const SELECT = `<%= name %>/SELECT`;
 export const finishLoading = () => ({
     type: FINISH_LOADING
 });
